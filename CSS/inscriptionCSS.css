@@ -1,0 +1,102 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-image: url("../images/BGinscription.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.inscription
+{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #191919;
+	text-align: center;
+	background-color: RGBA( 0, 0 , 0, 0.5);
+	border-radius: 10px;
+}
+
+.inscription h1
+{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.inscription input[type = "text"], .inscription input[type = "password"]
+{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+
+.inscription input[type = "text"]:focus, .inscription input[type = "password"]:focus
+{
+	width: 280px;
+	border-color: #2ecc71;
+}
+
+.inscription input[type= "button"]
+{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #FFEFD5;
+	padding: 14px 40px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+
+.inscription input[type= "button"]:hover
+{
+	background: #2ecc71
+	
+}
+
+@font-face
+{
+	font-family: "quadrata";
+	src : url('../images/FrizQuadrataTT.ttf');
+}
+
+.inscription h1
+{
+	font-family: "quadrata", sans-serif;
+	font-size: 20px;
+}
+
+.inscription input[type = "text"]
+{
+	border-color: gold;
+}
+
+.inscription input[type = "password"]
+{
+	border-color:  silver;
+}
+
+.inscription p
+{
+	color: red;
+}
